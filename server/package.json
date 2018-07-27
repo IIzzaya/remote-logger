@@ -1,0 +1,38 @@
+{
+  "name": "remote-logger-server",
+  "version": "1.0.0",
+  "description": "Website server & backend of remote-logger plugin based on nuxt.js",
+  "author": "IIzzaya <linxuan_0709@icloud.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt build && nuxt start",
+    "precommit": "npm run lint",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.3",
+    "cross-env": "^5.0.1",
+    "express": "^4.15.3",
+    "morgan": "^1.9.0",
+    "nuxt": "latest",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "source-map-support": "^0.4.15"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.1.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
